@@ -1,5 +1,5 @@
 import os, torch, time, argparse
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 from vine_turbo import VINE_Turbo
 from accelerate.utils import set_seed
 from PIL import Image
