@@ -211,7 +211,7 @@ class VINE_Turbo(torch.nn.Module, PyTorchModelHubMixin):
             
         return params_gen
 
-    def forward(self, x, timesteps=None, secret=None):
+    def forward(self, x, secret=None, timesteps=None):
         if timesteps == None:
             timesteps = self.timesteps
         B = x.shape[0]
