@@ -237,7 +237,7 @@ python vine/w_bench_utils/regeneration/stochastic_regeneration.py  \
 
 - **Deterministic Regeneration (aka, Image Inversion):**
 ```shell
-python vine/w_bench_utils/regeneration/stochastic_regeneration.py \
+python vine/w_bench_utils/regeneration/deterministic_inversion.py \
   --wm_images_folder ./vine_encoded_wbench/512/DET_INVERSION_1K   \
   --edited_output_folder ./output/edited_wmed_wbench/DET_INVERSION_1K
 ```
